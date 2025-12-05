@@ -45,3 +45,7 @@ nlohmann_json.spdx
 
 # Bazel-related
 MODULE.bazel.lock
+
+build
+coverage_html
+

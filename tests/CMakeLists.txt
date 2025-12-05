@@ -173,6 +173,56 @@ json_test_add_test_for(src/unit-comparison.cpp
     MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
 )
 
+json_test_add_test_for(src/generatedIntegrationTest001.cc
+    NAME test-generatedIntegrationTest001
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest002.cc
+    NAME test-generatedIntegrationTest002
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest003.cc
+    NAME test-generatedIntegrationTest003
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest004.cc
+    NAME test-generatedIntegrationTest004
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest005.cc
+    NAME test-generatedIntegrationTest005
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest006.cc
+    NAME test-generatedIntegrationTest006
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest007.cc
+    NAME test-generatedIntegrationTest007
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest008.cc
+    NAME test-generatedIntegrationTest008
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest009.cc
+    NAME test-generatedIntegrationTest009
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
+json_test_add_test_for(src/generatedIntegrationTest010.cc
+    NAME test-generatedIntegrationTest010
+    MAIN test_main CXX_STANDARDS ${test_cxx_standards} ${test_force}
+)
+
 # *DO NOT* use json_test_set_test_options() below this line
 
 #############################################################################
